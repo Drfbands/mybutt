@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  shortmessage: MyString
+  Longmessage: MyText
+
+two:
+  shortmessage: MyString
+  Longmessage: MyText

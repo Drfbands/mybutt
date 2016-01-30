@@ -49,3 +49,5 @@ gem 'bootstrap-sass'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
+
+gem 'bootstrap-generators', '~> 3.3.4'

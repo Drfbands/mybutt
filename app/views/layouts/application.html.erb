@@ -34,9 +34,21 @@
           <li class="active">
 <%= link_to 'Home', root_path
  %></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+    a href=""></a>
+
+          <% if user_signed_in? %>
+            <li>
+            <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>        
+            </li>
+          <% else %>
+            <li>
+            <%= link_to('Login', new_user_session_path)  %>  
+            </li>
+          <% end %>
+
+
+
+        </ul> 
       </div>
     </div>
   </nav>

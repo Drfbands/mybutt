@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   devise_for :users
   resources :messages
 
- 
+  resources :charges 
 
   root 'messages#home'
 
